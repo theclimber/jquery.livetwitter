@@ -220,7 +220,7 @@
 											if (twitter.settings.showAuthor) {
 												var profile_url = '';
 												if (settings.service.length > 0) {
-													profile_url = 'http://' + settings.service + '/' + screen_name;
+													profile_url = this.user.statusnet_profile_url;
 												} else {
 													profile_url = 'http://twitter.com/' + screen_name;
 												}
